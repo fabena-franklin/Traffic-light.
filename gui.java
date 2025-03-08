@@ -2,7 +2,7 @@
 import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
-class TrafficLight extends JFrame implements ActionListener
+class gui extends JFrame implements ActionListener
 {
    String msg=”  ”;
 private JTextField display;
