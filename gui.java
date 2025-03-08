@@ -32,7 +32,7 @@ r2.addActionListener(this);
 r3.addActionListener(this);
 setSize(400,400);
 setVisible(true);
-c.setBackground(Color.PINK)
+c.setBackground(Color.PINK);
 
 }
 public void actionPerformed(ActionEvent ie)
@@ -53,13 +53,13 @@ display.setText(“TURN ON  ”+msg);
 else
 {
 c.setBackground(color.YELLOW);
-display.setText(“TURN ON  :”+msg)
+display.setText(“TURN ON  :”+msg);
 }
 }
 public static void main(String[]args)
 {
 TrafficLight light=new TrafficLight();
-Light.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE)
+Light.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
 } 
 
